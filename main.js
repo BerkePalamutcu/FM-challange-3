@@ -19,7 +19,7 @@ body.addEventListener('click', (e) => {
       listNumbers[i].classList.remove('liClicked');
     }
   }
-  if (e.target.innerHTML == 'SUBMIT') {
+  if (e.target.innerHTML == 'SUBMIT' && score != '') {
     displayListItems.classList.add('hidden');
     displayThanksMessage.classList.remove('hidden');
     selection.innerHTML = `You selected ${score} out of 5`;
