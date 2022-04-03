@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #141519;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-family: 'Overpass', sans-serif;
+}
+
+.content {
+  border-radius: 5%;
+  max-width: 270px;
+  max-height: 330px;
+  min-width: 270px;
+  min-height: 330px;
+  color: hsl(217, 12%, 63%, 1);
+  background-image: linear-gradient(
+    180deg,
+    #1e242c,
+    #171c25 /* COLOR PICKER WAS USED*/
+  );
+  padding: 1.5rem 2rem 2rem 2rem;
+}
+
+#header {
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin-left: 7px;
+}
+
+li {
+  margin-top: 1.2rem;
+  background-color: #242c36;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: 500;
+  padding: 0.5rem 0.8rem;
+  max-width: 14px;
+  min-width: 14px;
+  margin-left: 0.8rem;
+  margin-bottom: 1.4rem;
+}
+
+li:hover {
+  background-color: #e87313;
+  cursor: pointer;
+  color: white;
+}
+
+li:active {
+  background-color: hsl(217, 12%, 63%);
+}
+.liClicked {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}
+
+.thanks-passive {
+  font-family: 'Overpass', sans-serif;
+  justify-content: center;
+  text-align: center;
+}
+
+button {
+  width: 300px;
+  padding: 0.6rem;
+  border-radius: 120px;
+  background-color: #e87313;
+  color: white;
+}
+
+button:hover {
+  background-color: white;
+  color: #e87313;
+}
+p {
+  width: 310px;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.2rem;
+}
+
+#star {
+  margin-bottom: 0.8rem;
+  padding: 0.8rem;
+  background-color: #212731;
+  border-radius: 50%;
+}
+
+/*HERE STARTS THE SECOND PART */
+
+#thanksmessage {
+  color: white;
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 0.8rem;
+}
+#secondtext {
+  /*DISPLAY WILL BE INLINE-BLOCK*/
+  display: inline-block;
+  width: 300px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.2rem;
+  text-align: center;
+  transform: translateX(-12px);
+}
+#selection {
+  /*DISPLAY WILL BE INLINE-BLOCK */
+  display: inline-block;
+  width: 180px;
+  font-size: 15px;
+  color: #e87313;
+  border-radius: 50px;
+  padding: 0.15rem;
+  background-color: #212731;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+#secondimage {
+  margin-top: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.feedback {
+  transform: translateX(-10px);
+}
+.hidden {
+  display: none;
+}
+
+.attribution {
+  display: none;
+}
