@@ -14,7 +14,6 @@ body.addEventListener('click', (e) => {
     e.target.classList.toggle('liClicked');
   }
   if (e.target.classList == 'liClicked') {
-    console.log(e.target.parentElement.children);
     for (let i = 0; i < listNumbers.length; i++) {
       listNumbers[i].classList.remove('liClicked');
     }
