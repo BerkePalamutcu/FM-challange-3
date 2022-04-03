@@ -83,11 +83,13 @@ button {
   border-radius: 120px;
   background-color: #e87313;
   color: white;
+  border: none;
 }
 
 button:hover {
   background-color: white;
   color: #e87313;
+  border: none;
 }
 p {
   width: 310px;
